@@ -1,0 +1,40 @@
+{
+  "enquestes": [
+    {
+      "id": 1,
+      "titol": "Comida favorita",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "¿Qué comida prefieres?",
+          "tipus": "opcio_multiple",
+          "opcions": ["Pasta", "Arroz", "Carne", "Pescado"]
+        },
+        {
+          "ordre": 2,
+          "text": "¿Cuál es tu plato colombiano favorito?",
+          "tipus": "text_lliure"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titol": "Satisfacción con el gimnasio",
+      "activa": false,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "¿Cuántos días vas a la semana?",
+          "tipus": "opcio_multiple",
+          "opcions": ["1-2", "3-4", "5 o más"]
+        },
+        {
+          "ordre": 2,
+          "text": "¿Qué cambiarías del gimnasio?",
+          "tipus": "text_lliure"
+        }
+      ]
+    }
+  ]
+}
